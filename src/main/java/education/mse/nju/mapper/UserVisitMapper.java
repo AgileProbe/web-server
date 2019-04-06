@@ -6,7 +6,7 @@ import education.mse.nju.entity.UserVisitBean;
 import java.util.List;
 
 /**
- * Created by maicius on 2017/6/18.
+ * Created by maicius on 2017/6/18
  */
 public interface UserVisitMapper {
     void addUserVisit(UserVisitBean userVisitBean) throws Exception;

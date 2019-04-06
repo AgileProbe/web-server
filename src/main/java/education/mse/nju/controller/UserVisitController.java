@@ -1,4 +1,4 @@
-package education.cs.scu.controller;
+﻿package education.cs.scu.controller;
 
 import education.cs.scu.component.QueryUsersShopInfo;
 import education.cs.scu.entity.UserBean;
@@ -31,7 +31,7 @@ public class UserVisitController {
     QueryUsersShopInfo queryUsersShopInfo;
 
     /**
-     * 根据userName 查询其名下的商店
+     * 根据userName 查询其名下的所有商店
      * <p>
      * 查询redis中的table_user表
      */
