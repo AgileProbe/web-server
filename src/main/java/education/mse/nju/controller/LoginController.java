@@ -1,4 +1,4 @@
-package education.mse.nju.controller;
+﻿package education.mse.nju.controller;
 
 import education.mse.nju.entity.ProbeUser;
 import education.mse.nju.entity.User;
@@ -52,14 +52,14 @@ public class LoginController {
 
         ProbeUser probeUser = new ProbeUser();
         probeUser.setMac("aa.bb.cc.dd.ee.ff");
-        probeUser.setAddr("四川省成都市双流区四川大学江安校区西园7舍");
+        probeUser.setAddr("四川省成都市双流区四川大学江安校区西园7舍");//这里需要修改
         probeUser.setMmac("10000");
         probeUser.setBrand("brand_01");
         probeUser.setActivity_degree("30");
 
         ProbeUser probeUser1 = new ProbeUser();
         probeUser1.setMac("FF.FF.FF.FF.FF.FF");
-        probeUser1.setAddr("四川省成都市双流区四川大学江安校区西园8舍");
+        probeUser1.setAddr("四川省成都市双流区四川大学江安校区西园8舍");//这里也需要修改
         probeUser1.setMmac("11111");
         probeUser1.setBrand("brand_02");
         probeUser1.setActivity_degree("40");
