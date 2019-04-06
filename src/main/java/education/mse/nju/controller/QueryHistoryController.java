@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
+
+//查询历史记录
 @Controller
 public class QueryHistoryController {
     @RequestMapping(value = "queryHistoryYear", method= RequestMethod.GET)

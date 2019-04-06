@@ -19,7 +19,7 @@ import java.util.List;
 public class QueryHistoryDataServiceImpl implements QueryHistoryDataService{
     @Autowired
     QueryHistoryDataMapper queryHistoryData;
-
+//增加活跃数据
     public int addActivityData() throws Exception {
         return queryHistoryData.addActivityData();
     }
