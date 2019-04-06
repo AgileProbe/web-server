@@ -1,4 +1,4 @@
-package education.cs.scu.controller;
+﻿package education.cs.scu.controller;
 
 import education.cs.scu.entity.HistoryData;
 import education.cs.scu.entity.entityData.Day;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * Created by maicius on 2017/6/28.
+ * Created by maicius on 2017/6/28
  */
 @CrossOrigin
 @RestController

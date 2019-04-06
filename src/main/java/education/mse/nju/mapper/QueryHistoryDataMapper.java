@@ -9,7 +9,7 @@ import education.cs.scu.entity.entityData.Year;
 import java.util.List;
 
 /**
- * Created by maicius on 2017/6/29.
+ * Created by maicius on 2017/6/29.1
  */
 public interface QueryHistoryDataMapper {
 

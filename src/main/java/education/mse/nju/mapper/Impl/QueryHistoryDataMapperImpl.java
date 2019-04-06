@@ -1,4 +1,4 @@
-package education.cs.scu.mapper.Impl;
+﻿package education.cs.scu.mapper.Impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -19,7 +19,7 @@ import java.util.*;
  * QueryHistoryDataMapperImpl
  *
  * @Author lch
- * @Create on 2017/08/25 14:57
+ * @Create on 2017/08/25 14:571
  **/
 public class QueryHistoryDataMapperImpl implements QueryHistoryDataMapper {
 
