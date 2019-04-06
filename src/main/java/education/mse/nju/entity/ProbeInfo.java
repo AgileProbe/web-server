@@ -19,7 +19,7 @@ public class ProbeInfo implements Serializable{
     private Double rate;
     private Integer shop_id;
 
-
+//获得用户姓名
     public String getUser_name() {
         return user_name;
     }
@@ -35,7 +35,7 @@ public class ProbeInfo implements Serializable{
     public void setMmac(String mmac) {
         this.mmac = mmac;
     }
-
+//店铺名称的get方法
     public String getShop_name() {
         return shop_name;
     }

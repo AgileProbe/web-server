@@ -25,7 +25,7 @@ public class ProbeUser implements Serializable{
     public void setMmac(String mmac) {
         this.mmac = mmac;
     }
-
+//用户地址的get方法
     public String getAddr() {
         return addr;
     }
