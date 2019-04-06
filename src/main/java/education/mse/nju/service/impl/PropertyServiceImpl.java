@@ -14,6 +14,7 @@ public class PropertyServiceImpl implements PropertyService {
 
     @Autowired
     private PropertyMapper propertyMapper;
+//新增实体的service实现
     public int addProperty(PropertyBean propertyBean) throws Exception {
         return propertyMapper.addProperty(propertyBean);
     }

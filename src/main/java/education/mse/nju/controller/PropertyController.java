@@ -1,4 +1,4 @@
-package education.cs.scu.controller;
+﻿package education.cs.scu.controller;
 
 import education.cs.scu.entity.PropertyBean;
 import education.cs.scu.service.PropertyService;
@@ -42,7 +42,7 @@ public class PropertyController {
                               @RequestParam("visitRssi") Integer visitRssi,
                               @RequestParam("activityDegree") String activityDegree,
                               @RequestParam("visitTimeSplit") String visitTimeSplit) throws Exception {
-
+//使用bean的方式引入对象
         PropertyBean propertyBean = new PropertyBean();
         propertyBean.setPropertyId(property_id);
         propertyBean.setShopId(shop_id);
@@ -123,6 +123,7 @@ public class PropertyController {
         propertyBean.setShopId(shop_id);
         propertyBean.setMmac(mmac);
         PropertyBean propertyBean1 = propertyService.queryProperty(propertyBean);
+//如果是空的就新建一个
         if (propertyBean1 == null){
             propertyBean1 = new PropertyBean();
             propertyBean1.setMmac("");

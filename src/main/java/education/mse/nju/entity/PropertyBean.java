@@ -19,7 +19,7 @@ public class PropertyBean implements Serializable {
     private String activityDegree;
     private String visitTimeSplit;
     private boolean propertyType;
-
+//¹¹Ôìº¯Êý
     public PropertyBean() {
     }
 
