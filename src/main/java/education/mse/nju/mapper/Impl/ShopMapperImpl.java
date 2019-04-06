@@ -1,5 +1,4 @@
-package education.cs.scu.mapper.Impl;
-
+﻿package education.cs.scu.mapper.Impl;
 import education.cs.scu.entity.ProbeInfo;
 import education.cs.scu.entity.ShopInfo;
 import education.cs.scu.entity.User;
@@ -9,7 +8,6 @@ import org.springframework.data.redis.RedisConnectionFailureException;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.ListOperations;
 import org.springframework.data.redis.core.RedisTemplate;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

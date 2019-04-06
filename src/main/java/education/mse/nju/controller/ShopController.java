@@ -1,4 +1,4 @@
-package education.cs.scu.controller;
+﻿package education.cs.scu.controller;
 
 import education.cs.scu.entity.ProbeInfo;
 import education.cs.scu.entity.ShopInfo;
@@ -22,7 +22,7 @@ public class ShopController {
     private ShopService shopService;
 
     /**
-     * 查询商场信息
+     * 查询商场信息的情况
      *
      * @param request
      * @param userName

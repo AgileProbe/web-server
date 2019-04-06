@@ -7,7 +7,8 @@ import education.cs.scu.entity.User;
 import java.util.List;
 
 /**
- * Created by maicius on 2017/6/27.
+ * Created by maicius on 2017/6/27..
+Update
  */
 public interface ShopMapper {
     List<ShopInfo> queryShopInfos(ShopInfo shopInfo);
